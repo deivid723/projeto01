@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/png">
+    <title>A-Wiki Character</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!--MENU-->
+            <ul class="ul">
+                <div id="men">
+                    <li>
+                        <a href="categorias.html" class="li" title="Página com os personagens com descrição disponíveis"
+                            rel="next">Categorias</a>
+                    </li>
+                    <li>
+                        <a href="index.html"><img src="imagens/favicon.png" alt="imagem" class="fav"
+                                title="Página Principal"></a>
+                    </li>
+                    <li>
+                        <a href="indisponivel.html" class="li" title="Página para contato" rel="next">Contato</a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="div1">
+            <div class="div2">
+                <h1 class="tit">Para que serve esse site?</h1>
+                <p class="par">Aqui você encontra a <strong style="color:red">descrição dos personagens principais de
+                        animes e HQ's.</strong> Com o tempo iremos evoluir o site, podendo até mesmo colocar de séries e
+                    filmes. Aqui
+                    você pode encontrar as habilidades, curiosidades, nacionalidade e entre outras coisas.</p>
+                <p class="par">Espero que apreciem o site não como algo profissional, mas sim como algo amador de um
+                    jovem que quer realizar seus sonhos.</p>
+                <div class="cent">
+                    <a href="categorias.html" rel="next">
+                        <div class="cartão1">
+                            <h2 class="h2c">Clique aqui para saber ver quais categorias estão disponiveis</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="div1">
+                    <img src="imagens/198177795.jpg" alt="imagem" style="width: 120px;">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="foo1">
+            <div style="display: flex;">
+                <a href="https://www.youtube.com/channel/UCD1cH74Xtyr558uYRo_VKMQ" rel="external" target="_blank"><img src="imagens/ico.jpeg" alt="insta" class="insta" title="YouTube"></a><p style="font-size: 15px;">YouTube <sup>BR</sup></p>
+            </div>
+            <hr>
+            <div class="sc">
+                <div>
+                    <div style="display: flex; justify-content: center; padding-top: 10px;">
+                        <img src="imagens/insta.jpeg" alt="insta" class="instaa">
+                    </div>
+                    <p>Desenvolvido por: <a href="https://www.instagram.com/deividd14s/" class="lii" target="_blanck"><b
+                                class="b">@deividd14as</b></a></p>
+                    <p>Ft: <a href="https://www.instagram.com/nathanferreira__/" class="lii" target="_blank"><b
+                                class="b">@nathanferreira_</b></a></p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <button onclick="backToTop()" id="top">
+        <p style="color: white; font-size: 15px;">TOPO</p>
+    </button>
+    <script>
+        var btn = document.querySelector('button#top')
+        
+        window.onscroll = function () {
+            scroll()
+        }
+        function scroll() {
+            if (document.documentElement.scrollTop > 50) {
+                var element = document.getElementById("top");
+                element.classList.add("hide");
+            } else {
+                var element = document.getElementById("top");
+                element.classList.remove("hide");
+            }
+        }
+        function backToTop() {
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>

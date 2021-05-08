@@ -1,0 +1,8 @@
+*Um site com descrição de protagonistas.
+*No que seria a "biografia" dos personagens 
+
+Poderia adicionar tipo no que eles "trabalham", exemplo, Eren (tropa de exploração/facção yeager)
+
+*As habilidades, curiosidades
+*Nacionalidade, nome dos pais, irmão
+, Tipo uma wiki mesmo
